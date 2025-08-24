@@ -5,7 +5,7 @@
 A smart Streamlit application that allows you to chat with your SQL database in natural language using LangChain and Groq LLM.
 Supports both SQLite (student.db) and MySQL databases.
 
-✨ Features
+## Features
 
 🔹 Chat with your database using natural queries.
 
@@ -17,14 +17,8 @@ Supports both SQLite (student.db) and MySQL databases.
 
 🔹 Interactive Streamlit chat UI.
 
-📂 Project Structure
-📦 sql-chat-app
- ┣ 📜 app.py            # Main Streamlit app
- ┣ 📜 student.db        # Sample SQLite database
- ┣ 📜 requirements.txt  # Dependencies
- ┗ 📜 README.md         # Project documentation
 
-⚙️ Installation
+## Installation
 
 1️⃣ Clone the repo:
 
@@ -41,7 +35,7 @@ pip install -r requirements.txt
 
 streamlit run app.py
 
-🔑 Setup
+## Setup
 
 Groq API Key → Enter your key in the sidebar.
 
@@ -49,7 +43,7 @@ SQLite (default) → Uses student.db included in the repo.
 
 MySQL (optional) → Enter connection details in the sidebar.
 
-🎯 Example Queries
+## Example Queries
 
 "Show all students in section A"
 
@@ -59,7 +53,7 @@ MySQL (optional) → Enter connection details in the sidebar.
 
 "List students with marks greater than 80"
 
-🧩 Tech Stack
+## Tech Stack
 
 Frontend: Streamlit
 
